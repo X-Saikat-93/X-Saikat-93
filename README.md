@@ -5,9 +5,11 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=x-saikat-93" alt="x-saikat-93" /></a> </p>
 
-- 🔭 I’m currently working on [Project-Pixel](https://pixutter.netlify.app/)
+- 🔭 I’ve completed the project [Project-Pixel](https://pixutter.netlify.app/)
+  
+- 🔭 I’m currently working on [Link-Leapl](https://linkleap.vercel.app/)
 
-- 🌱 I’m currently learning **MERN & React Native**
+- 🌱 I’m currently learning **Full_Stack & React Native**
 
 - 👨‍💻 All of my projects are available at [https://github.com/X-Saikat-93](https://github.com/X-Saikat-93)
 
