@@ -7,7 +7,7 @@
 
 - 🔭 I’ve completed the project [Project-Pixel](https://pixutter.netlify.app/)
   
-- 🔭 I’m currently working on [Link-Leapl](https://linkleap.vercel.app/)
+- 🔭 I’m currently working on [Link-Leap](https://linkleap.vercel.app/)
 
 - 🌱 I’m currently learning **Full_Stack & React Native**
 
