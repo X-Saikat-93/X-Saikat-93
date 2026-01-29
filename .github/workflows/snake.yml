@@ -1,5 +1,8 @@
 name: Generate Snake Animation
 
+permissions:
+  contents: write  # Only this workflow gets write access
+  
 on:
   schedule:
     # runs at 00:00 UTC every 12 hours
