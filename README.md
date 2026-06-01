@@ -128,7 +128,7 @@ const saikat = {
 | Project | Description | Tech Stack | Live Demo |
 |---------|-------------|------------|-----------|
 | **Finbird** | 🔗 Advanced AI Billing SaaS with analytics | `Next.js 16` `TypeScript` `Redis` | [Visit](https://finbird.netlify.app/) |
-| **Project-Pixel** | 🎨 AI-powered image processing platform | `React` `Python` `FastAPI` | [Visit](https://pixutter.netlify.app/) |
+| **VoiceFIT-AI** | 🎨 Voice-first AI screening | `React` `Python` `FastAPI` | [Visit]() |
 | **Portfolio** | 💼 Personal portfolio & blog platform | `Next.js 14` `Framer Motion` | [Visit](https://xsaikat.vercel.app/) |
 
 </div>
