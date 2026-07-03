@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=2600&pause=900&color=8B5CF6&center=true&vCenter=true&width=900&lines=Designing+interfaces+that+feel+calm.;Building+systems+that+stay+fast.;Shipping+products+that+look+simple+because+the+hard+parts+are+handled." alt="Animated headline" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=2600&pause=900&color=8B5CF6&center=true&vCenter=true&width=900&lines=Designing+premium+interfaces+with+calm+precision.;Building+scalable+systems+with+clean+architecture.;Shipping+modern+products+with+speed+and+clarity." alt="Animated headline" />
 
 <br/>
 
