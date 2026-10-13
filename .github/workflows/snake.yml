@@ -29,8 +29,12 @@ jobs:
         with:
           github_user_name: X-Saikat-93
           outputs: |
-            dist/github-contribution-grid-snake-dark.svg?color_snake=%23FF6A1A&color_dots=%231B1B22,%234A2410,%238F3D10,%23D9540F,%23FF7A2E&sizeDotBorderRadius=3
-            dist/github-contribution-grid-snake.svg?color_snake=%23E5530A&color_dots=%23EDEAE4,%23F6C9A6,%23F2A06A,%23E96F2A,%23C2410C&sizeDotBorderRadius=3
+            dist/github-contribution-grid-snake-dark.svg?color_snake=FF6A1A&color_dots=1B1B22,4A2410,8F3D10,D9540F,FF7A2E&sizeDotBorderRadius=3
+            dist/github-contribution-grid-snake.svg?color_snake=E5530A&color_dots=EDEAE4,F6C9A6,F2A06A,E96F2A,C2410C&sizeDotBorderRadius=3
+
+      # snk strips the leading '#' from custom colors; restore it so the CSS is valid
+      - name: Fix color values
+        run: sed -i -E 's/(--c[0-4se]:)([0-9A-Fa-f]{6})([;}])/\1#\2\3/g' dist/*.svg
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
