@@ -34,7 +34,9 @@ jobs:
 
       # snk strips the leading '#' from custom colors; restore it so the CSS is valid
       - name: Fix color values
-        run: sed -i -E 's/(--c[0-4se]:)([0-9A-Fa-f]{6})([;}])/\1#\2\3/g' dist/*.svg
+        run: |
+          sudo chown -R "$USER" dist
+          sed -i -E 's/(--c[0-4se]:)([0-9A-Fa-f]{6})([;}])/\1#\2\3/g' dist/*.svg
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
