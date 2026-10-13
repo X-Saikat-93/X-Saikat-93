@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540" width="1000" height="540" role="img" aria-label="Profile and current signal">
+<defs>
+<pattern id="iso" width="48" height="24" patternUnits="userSpaceOnUse">
+<path d="M0 12 L24 0 M24 24 L48 12 M0 12 L24 24 M24 0 L48 12" stroke="#fff" stroke-opacity=".035" fill="none"/>
+</pattern>
+<radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FF6A1A" stop-opacity=".55"/><stop offset="1" stop-color="#FF6A1A" stop-opacity="0"/></radialGradient>
+</defs>
+<style>
+text{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+.m{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace}
+.t{fill:#1B1B20;stroke:#2C2C34}.l{fill:#101014;stroke:#2C2C34}.r{fill:#0B0B0E;stroke:#2C2C34}
+.vt{fill:#2A2A33;stroke:#43434F}.vl{fill:#17171D;stroke:#43434F}.vr{fill:#101015;stroke:#43434F}
+.ot{fill:#FF6A1A}.ol{fill:#D4520C}.or{fill:#8F3406}
+.fg{fill:#F4F1EC}.mu{fill:#8B8A93}.or-t{fill:#FF7A2E}
+.ln{stroke:#2C2C34;fill:none}
+.spine{stroke:#FF6A1A;stroke-width:1.5;fill:none;stroke-dasharray:2 8;stroke-opacity:.8;animation:flow 2s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-20}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes hl{0%{opacity:0}5%{opacity:1}22%{opacity:1}30%{opacity:0}100%{opacity:0}}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:.8}}
+@keyframes drop{0%{transform:translateY(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateY(var(--d));opacity:0}}
+.bob{animation:bob 7s ease-in-out infinite}
+.in{opacity:0;animation:rise 1s cubic-bezier(.2,.7,.2,1) forwards}
+.hl{opacity:0;animation:hl 6s ease-in-out infinite}
+.pulse{animation:pulse 4s ease-in-out infinite}
+@keyframes wave{0%,22%,100%{transform:translateY(0)}10%{transform:translateY(-9px)}}
+@keyframes flash{0%,24%,100%{opacity:0}9%{opacity:1}}
+.wave{animation:wave 5.5s ease-in-out infinite}
+.flash{opacity:0;animation:flash 5.5s ease-in-out infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.in{opacity:1!important}}
+</style>
+<rect width="1000" height="540" rx="18" fill="#08080A"/><rect width="1000" height="540" rx="18" fill="url(#iso)"/><rect x=".5" y=".5" width="999" height="539" rx="17.5" fill="none" stroke="#1F1F25"/>
+<g class="in" style="animation-delay:.1s"><text x="56" y="64" class="m or-t" font-size="14" letter-spacing="3">01</text><text x="100" y="64" class="m mu" font-size="14" letter-spacing="3">PROFILE</text></g>
+<g class="in" style="animation-delay:.2s">
+<text x="56" y="128" class="fg" font-size="24" font-weight="500">Full-stack engineer who takes products</text><text x="56" y="164" class="fg" font-size="24" font-weight="500">from database design and APIs through</text><text x="56" y="200" class="fg" font-size="24" font-weight="500">web, mobile and deployment.</text>
+<text x="56" y="278" class="mu" font-size="17" >Currently building and maintaining two platforms</text><text x="56" y="306" class="mu" font-size="17" >at Human Before Resource: an internal ATS used</text><text x="56" y="334" class="mu" font-size="17" >by 50+ recruiters, and Zaruro, a seven-app home</text><text x="56" y="362" class="mu" font-size="17" >services marketplace.</text><text x="56" y="390" class="mu" font-size="17" ></text><text x="56" y="418" class="mu" font-size="17" >Strongest in TypeScript, Node.js, PostgreSQL,</text><text x="56" y="446" class="mu" font-size="17" >Redis and React.</text>
+</g>
+<g class="in" style="animation-delay:.4s"><rect x="580" y="96" width="364" height="420" rx="12" fill="#0F0F13" stroke="#25252C"/>
+<text x="604" y="128" class="m or-t" font-size="12" letter-spacing="3">CURRENT SIGNAL</text><circle class="ot pulse" cx="916" cy="123" r="4"/>
+<text x="604" y="162" class="m mu" font-size="11" letter-spacing="2">BUILDING</text>
+<text x="604" y="184" class="fg" font-size="16" >Zaruro and a recruitment ATS</text>
+<path class="ln" d="M604,203 H920" stroke-opacity=".6"/>
+<text x="604" y="223" class="m mu" font-size="11" letter-spacing="2">ROLE</text>
+<text x="604" y="245" class="fg" font-size="16" >Software Developer,</text><text x="604" y="266" class="fg" font-size="16" >Human Before Resource Pvt. Ltd.</text>
+<path class="ln" d="M604,285 H920" stroke-opacity=".6"/>
+<text x="604" y="305" class="m mu" font-size="11" letter-spacing="2">STRONGEST</text>
+<text x="604" y="327" class="fg" font-size="16" >TypeScript, Node.js, PostgreSQL,</text><text x="604" y="348" class="fg" font-size="16" >Redis, React</text>
+<path class="ln" d="M604,367 H920" stroke-opacity=".6"/>
+<text x="604" y="387" class="m mu" font-size="11" letter-spacing="2">EXPLORING</text>
+<text x="604" y="409" class="fg" font-size="16" >AI workflows, automation,</text><text x="604" y="430" class="fg" font-size="16" >scalable billing</text>
+<path class="ln" d="M604,449 H920" stroke-opacity=".6"/>
+<text x="604" y="469" class="m mu" font-size="11" letter-spacing="2">BASED IN</text>
+<text x="604" y="491" class="fg" font-size="16" >Kolkata, India · Open to remote</text>
+</g></svg>

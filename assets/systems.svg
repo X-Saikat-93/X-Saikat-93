@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 980" width="1000" height="980" role="img" aria-label="Selected systems">
+<defs>
+<pattern id="iso" width="48" height="24" patternUnits="userSpaceOnUse">
+<path d="M0 12 L24 0 M24 24 L48 12 M0 12 L24 24 M24 0 L48 12" stroke="#fff" stroke-opacity=".035" fill="none"/>
+</pattern>
+<radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FF6A1A" stop-opacity=".55"/><stop offset="1" stop-color="#FF6A1A" stop-opacity="0"/></radialGradient>
+</defs>
+<style>
+text{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+.m{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace}
+.t{fill:#1B1B20;stroke:#2C2C34}.l{fill:#101014;stroke:#2C2C34}.r{fill:#0B0B0E;stroke:#2C2C34}
+.vt{fill:#2A2A33;stroke:#43434F}.vl{fill:#17171D;stroke:#43434F}.vr{fill:#101015;stroke:#43434F}
+.ot{fill:#FF6A1A}.ol{fill:#D4520C}.or{fill:#8F3406}
+.fg{fill:#F4F1EC}.mu{fill:#8B8A93}.or-t{fill:#FF7A2E}
+.ln{stroke:#2C2C34;fill:none}
+.spine{stroke:#FF6A1A;stroke-width:1.5;fill:none;stroke-dasharray:2 8;stroke-opacity:.8;animation:flow 2s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-20}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes hl{0%{opacity:0}5%{opacity:1}22%{opacity:1}30%{opacity:0}100%{opacity:0}}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:.8}}
+@keyframes drop{0%{transform:translateY(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateY(var(--d));opacity:0}}
+.bob{animation:bob 7s ease-in-out infinite}
+.in{opacity:0;animation:rise 1s cubic-bezier(.2,.7,.2,1) forwards}
+.hl{opacity:0;animation:hl 6s ease-in-out infinite}
+.pulse{animation:pulse 4s ease-in-out infinite}
+@keyframes wave{0%,22%,100%{transform:translateY(0)}10%{transform:translateY(-9px)}}
+@keyframes flash{0%,24%,100%{opacity:0}9%{opacity:1}}
+.wave{animation:wave 5.5s ease-in-out infinite}
+.flash{opacity:0;animation:flash 5.5s ease-in-out infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.in{opacity:1!important}}
+</style>
+<rect width="1000" height="980" rx="18" fill="#08080A"/><rect width="1000" height="980" rx="18" fill="url(#iso)"/><rect x=".5" y=".5" width="999" height="979" rx="17.5" fill="none" stroke="#1F1F25"/>
+<g class="in" style="animation-delay:.1s"><text x="56" y="64" class="m or-t" font-size="14" letter-spacing="3">03</text><text x="100" y="64" class="m mu" font-size="14" letter-spacing="3">SELECTED SYSTEMS</text></g>
+<path class="spine" d="M120,140 V910"/>
+<g class="in" style="animation-delay:0.15s"><g class="bob" style="animation-delay:0.0s">
+<polygon class="l" points="42.0,209.0 120.0,248.0 120.0,262.0 42.0,223.0"/><polygon class="r" points="120.0,248.0 198.0,209.0 198.0,223.0 120.0,262.0"/><polygon class="t" points="120.0,170.0 198.0,209.0 120.0,248.0 42.0,209.0"/>
+<g><polygon class="l" points="80.0,192.0 96.0,200.0 96.0,206.0 80.0,198.0"/><polygon class="r" points="96.0,200.0 112.0,192.0 112.0,198.0 96.0,206.0"/><polygon class="t" points="96.0,184.0 112.0,192.0 96.0,200.0 80.0,192.0"/><polygon class="l" points="106.0,178.0 122.0,186.0 122.0,192.0 106.0,184.0"/><polygon class="r" points="122.0,186.0 138.0,178.0 138.0,184.0 122.0,192.0"/><polygon class="t" points="122.0,170.0 138.0,178.0 122.0,186.0 106.0,178.0"/><polygon class="l" points="94.0,206.0 110.0,214.0 110.0,220.0 94.0,212.0"/><polygon class="r" points="110.0,214.0 126.0,206.0 126.0,212.0 110.0,220.0"/><polygon class="t" points="110.0,198.0 126.0,206.0 110.0,214.0 94.0,206.0"/><polygon class="l" points="120.0,192.0 136.0,200.0 136.0,206.0 120.0,198.0"/><polygon class="r" points="136.0,200.0 152.0,192.0 152.0,198.0 136.0,206.0"/><polygon class="t" points="136.0,184.0 152.0,192.0 136.0,200.0 120.0,192.0"/></g>
+<g class="hl" style="animation-delay:0.0s"><polygon class="ol" points="80.0,192.0 96.0,200.0 96.0,206.0 80.0,198.0"/><polygon class="or" points="96.0,200.0 112.0,192.0 112.0,198.0 96.0,206.0"/><polygon class="ot" points="96.0,184.0 112.0,192.0 96.0,200.0 80.0,192.0"/><polygon class="ol" points="106.0,178.0 122.0,186.0 122.0,192.0 106.0,184.0"/><polygon class="or" points="122.0,186.0 138.0,178.0 138.0,184.0 122.0,192.0"/><polygon class="ot" points="122.0,170.0 138.0,178.0 122.0,186.0 106.0,178.0"/><polygon class="ol" points="94.0,206.0 110.0,214.0 110.0,220.0 94.0,212.0"/><polygon class="or" points="110.0,214.0 126.0,206.0 126.0,212.0 110.0,220.0"/><polygon class="ot" points="110.0,198.0 126.0,206.0 110.0,214.0 94.0,206.0"/><polygon class="ol" points="120.0,192.0 136.0,200.0 136.0,206.0 120.0,198.0"/><polygon class="or" points="136.0,200.0 152.0,192.0 152.0,198.0 136.0,206.0"/><polygon class="ot" points="136.0,184.0 152.0,192.0 136.0,200.0 120.0,192.0"/></g></g>
+<text x="290" y="182" class="fg" font-size="28" font-weight="600">Zaruro</text>
+<text x="290" y="182" class="or-t hl" style="animation-delay:0.0s" font-size="28" font-weight="600">Zaruro</text>
+<text x="290" y="210" class="mu" font-size="17" >Home services marketplace across customer, worker, admin,</text><text x="290" y="232" class="mu" font-size="17" >verification and field-ops apps, web and mobile.</text>
+<text x="290" y="262" class="mu m" font-size="12" letter-spacing="1">TYPESCRIPT · NODE.JS · NEXT.JS · REACT NATIVE</text><text x="290" y="281" class="mu m" font-size="12" letter-spacing="1">POSTGRESQL · REDIS · SOCKET.IO · CASHFREE · ZARURO.COM</text>
+<path class="ln" d="M290,313 H944" stroke-opacity=".6"/>
+</g>
+<g class="in" style="animation-delay:0.27s"><g class="bob" style="animation-delay:-1.3s">
+<polygon class="l" points="42.0,374.0 120.0,413.0 120.0,427.0 42.0,388.0"/><polygon class="r" points="120.0,413.0 198.0,374.0 198.0,388.0 120.0,427.0"/><polygon class="t" points="120.0,335.0 198.0,374.0 120.0,413.0 42.0,374.0"/>
+<g><polygon class="l" points="76.0,363.0 116.0,383.0 116.0,388.0 76.0,368.0"/><polygon class="r" points="116.0,383.0 156.0,363.0 156.0,368.0 116.0,388.0"/><polygon class="t" points="116.0,343.0 156.0,363.0 116.0,383.0 76.0,363.0"/><polygon class="l" points="76.0,355.0 116.0,375.0 116.0,380.0 76.0,360.0"/><polygon class="r" points="116.0,375.0 156.0,355.0 156.0,360.0 116.0,380.0"/><polygon class="t" points="116.0,335.0 156.0,355.0 116.0,375.0 76.0,355.0"/><polygon class="l" points="76.0,347.0 116.0,367.0 116.0,372.0 76.0,352.0"/><polygon class="r" points="116.0,367.0 156.0,347.0 156.0,352.0 116.0,372.0"/><polygon class="t" points="116.0,327.0 156.0,347.0 116.0,367.0 76.0,347.0"/></g>
+<g class="hl" style="animation-delay:1.5s"><polygon class="ol" points="76.0,363.0 116.0,383.0 116.0,388.0 76.0,368.0"/><polygon class="or" points="116.0,383.0 156.0,363.0 156.0,368.0 116.0,388.0"/><polygon class="ot" points="116.0,343.0 156.0,363.0 116.0,383.0 76.0,363.0"/><polygon class="ol" points="76.0,355.0 116.0,375.0 116.0,380.0 76.0,360.0"/><polygon class="or" points="116.0,375.0 156.0,355.0 156.0,360.0 116.0,380.0"/><polygon class="ot" points="116.0,335.0 156.0,355.0 116.0,375.0 76.0,355.0"/><polygon class="ol" points="76.0,347.0 116.0,367.0 116.0,372.0 76.0,352.0"/><polygon class="or" points="116.0,367.0 156.0,347.0 156.0,352.0 116.0,372.0"/><polygon class="ot" points="116.0,327.0 156.0,347.0 116.0,367.0 76.0,347.0"/></g></g>
+<text x="290" y="347" class="fg" font-size="28" font-weight="600">Recruitment ATS</text>
+<text x="290" y="347" class="or-t hl" style="animation-delay:1.5s" font-size="28" font-weight="600">Recruitment ATS</text>
+<text x="290" y="375" class="mu" font-size="17" >Internal hiring platform used by 50+ recruiters to manage</text><text x="290" y="397" class="mu" font-size="17" >100K+ candidate records, with Groq-assisted notes.</text>
+<text x="290" y="427" class="mu m" font-size="12" letter-spacing="1">NEXT.JS · NODE.JS · POSTGRESQL · DRIZZLE · REDIS · GROQ · DOCKER</text><text x="290" y="446" class="mu m" font-size="12" letter-spacing="1">INTERNAL — HUMAN BEFORE RESOURCE</text>
+<path class="ln" d="M290,478 H944" stroke-opacity=".6"/>
+</g>
+<g class="in" style="animation-delay:0.39s"><g class="bob" style="animation-delay:-2.6s">
+<polygon class="l" points="42.0,539.0 120.0,578.0 120.0,592.0 42.0,553.0"/><polygon class="r" points="120.0,578.0 198.0,539.0 198.0,553.0 120.0,592.0"/><polygon class="t" points="120.0,500.0 198.0,539.0 120.0,578.0 42.0,539.0"/>
+<g><polygon class="l" points="78.0,515.0 116.0,534.0 116.0,556.0 78.0,537.0"/><polygon class="r" points="116.0,534.0 154.0,515.0 154.0,537.0 116.0,556.0"/><polygon class="t" points="116.0,496.0 154.0,515.0 116.0,534.0 78.0,515.0"/></g>
+<g class="hl" style="animation-delay:3.0s"><polygon class="ol" points="78.0,515.0 116.0,534.0 116.0,556.0 78.0,537.0"/><polygon class="or" points="116.0,534.0 154.0,515.0 154.0,537.0 116.0,556.0"/><polygon class="ot" points="116.0,496.0 154.0,515.0 116.0,534.0 78.0,515.0"/></g></g>
+<text x="290" y="512" class="fg" font-size="28" font-weight="600">Finbird</text>
+<text x="290" y="512" class="or-t hl" style="animation-delay:3.0s" font-size="28" font-weight="600">Finbird</text>
+<text x="290" y="540" class="mu" font-size="17" >AI-powered billing SaaS with analytics-focused product flows.</text>
+<text x="290" y="570" class="mu m" font-size="12" letter-spacing="1">NEXT.JS · TYPESCRIPT · REDIS  —  LIVE</text>
+<path class="ln" d="M290,643 H944" stroke-opacity=".6"/>
+</g>
+<g class="in" style="animation-delay:0.51s"><g class="bob" style="animation-delay:-3.9000000000000004s">
+<polygon class="l" points="42.0,704.0 120.0,743.0 120.0,757.0 42.0,718.0"/><polygon class="r" points="120.0,743.0 198.0,704.0 198.0,718.0 120.0,757.0"/><polygon class="t" points="120.0,665.0 198.0,704.0 120.0,743.0 42.0,704.0"/>
+<g><polygon class="l" points="94.0,652.0 116.0,663.0 116.0,709.0 94.0,698.0"/><polygon class="r" points="116.0,663.0 138.0,652.0 138.0,698.0 116.0,709.0"/><polygon class="t" points="116.0,641.0 138.0,652.0 116.0,663.0 94.0,652.0"/></g>
+<g class="hl" style="animation-delay:4.5s"><polygon class="ol" points="94.0,652.0 116.0,663.0 116.0,709.0 94.0,698.0"/><polygon class="or" points="116.0,663.0 138.0,652.0 138.0,698.0 116.0,709.0"/><polygon class="ot" points="116.0,641.0 138.0,652.0 116.0,663.0 94.0,652.0"/></g></g>
+<text x="290" y="677" class="fg" font-size="28" font-weight="600">VoiceFIT-AI</text>
+<text x="290" y="677" class="or-t hl" style="animation-delay:4.5s" font-size="28" font-weight="600">VoiceFIT-AI</text>
+<text x="290" y="705" class="mu" font-size="17" >Voice-first AI screening for smarter candidate evaluation.</text>
+<text x="290" y="735" class="mu m" font-size="12" letter-spacing="1">REACT · PYTHON · FASTAPI  —  PRIVATE PREVIEW</text>
+<path class="ln" d="M290,808 H944" stroke-opacity=".6"/>
+</g>
+<g class="in" style="animation-delay:0.63s"><g class="bob" style="animation-delay:-5.2s">
+<polygon class="l" points="42.0,869.0 120.0,908.0 120.0,922.0 42.0,883.0"/><polygon class="r" points="120.0,908.0 198.0,869.0 198.0,883.0 120.0,922.0"/><polygon class="t" points="120.0,830.0 198.0,869.0 120.0,908.0 42.0,869.0"/>
+<g><polygon class="l" points="80.0,852.0 96.0,860.0 96.0,866.0 80.0,858.0"/><polygon class="r" points="96.0,860.0 112.0,852.0 112.0,858.0 96.0,866.0"/><polygon class="t" points="96.0,844.0 112.0,852.0 96.0,860.0 80.0,852.0"/><polygon class="l" points="106.0,838.0 122.0,846.0 122.0,852.0 106.0,844.0"/><polygon class="r" points="122.0,846.0 138.0,838.0 138.0,844.0 122.0,852.0"/><polygon class="t" points="122.0,830.0 138.0,838.0 122.0,846.0 106.0,838.0"/><polygon class="l" points="94.0,866.0 110.0,874.0 110.0,880.0 94.0,872.0"/><polygon class="r" points="110.0,874.0 126.0,866.0 126.0,872.0 110.0,880.0"/><polygon class="t" points="110.0,858.0 126.0,866.0 110.0,874.0 94.0,866.0"/><polygon class="l" points="120.0,852.0 136.0,860.0 136.0,866.0 120.0,858.0"/><polygon class="r" points="136.0,860.0 152.0,852.0 152.0,858.0 136.0,866.0"/><polygon class="t" points="136.0,844.0 152.0,852.0 136.0,860.0 120.0,852.0"/></g>
+<g class="hl" style="animation-delay:6.0s"><polygon class="ol" points="80.0,852.0 96.0,860.0 96.0,866.0 80.0,858.0"/><polygon class="or" points="96.0,860.0 112.0,852.0 112.0,858.0 96.0,866.0"/><polygon class="ot" points="96.0,844.0 112.0,852.0 96.0,860.0 80.0,852.0"/><polygon class="ol" points="106.0,838.0 122.0,846.0 122.0,852.0 106.0,844.0"/><polygon class="or" points="122.0,846.0 138.0,838.0 138.0,844.0 122.0,852.0"/><polygon class="ot" points="122.0,830.0 138.0,838.0 122.0,846.0 106.0,838.0"/><polygon class="ol" points="94.0,866.0 110.0,874.0 110.0,880.0 94.0,872.0"/><polygon class="or" points="110.0,874.0 126.0,866.0 126.0,872.0 110.0,880.0"/><polygon class="ot" points="110.0,858.0 126.0,866.0 110.0,874.0 94.0,866.0"/><polygon class="ol" points="120.0,852.0 136.0,860.0 136.0,866.0 120.0,858.0"/><polygon class="or" points="136.0,860.0 152.0,852.0 152.0,858.0 136.0,866.0"/><polygon class="ot" points="136.0,844.0 152.0,852.0 136.0,860.0 120.0,852.0"/></g></g>
+<text x="290" y="842" class="fg" font-size="28" font-weight="600">Portfolio</text>
+<text x="290" y="842" class="or-t hl" style="animation-delay:6.0s" font-size="28" font-weight="600">Portfolio</text>
+<text x="290" y="870" class="mu" font-size="17" >Personal portfolio and blog platform with clean motion.</text>
+<text x="290" y="900" class="mu m" font-size="12" letter-spacing="1">NEXT.JS · FRAMER MOTION · VERCEL  —  LIVE</text>
+</g>
+<circle cx="120" cy="140" r="3.5" class="ot" style="--d:770px;animation:drop 6s ease-in-out infinite"/>
+</svg>
