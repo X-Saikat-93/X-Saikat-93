@@ -1,34 +1,39 @@
 name: Generate Snake Animation
 
-permissions:
-  contents: write  # Only this workflow gets write access
-  
 on:
   schedule:
-    # runs at 00:00 UTC every 12 hours
+    # every 12 hours
     - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
     branches:
       - main
 
+permissions:
+  contents: write
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Generate Snake
+      - name: Generate snake (orange on black, matches the profile)
         uses: Platane/snk@v3
         with:
-          github_user_name: X-saikat-93
+          github_user_name: X-Saikat-93
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake-dark.svg?color_snake=FF6A1A&color_dots=1B1B22,4A2410,8F3D10,D9540F,FF7A2E&sizeDotBorderRadius=3
+            dist/github-contribution-grid-snake.svg?color_snake=E5530A&color_dots=EDEAE4,F6C9A6,F2A06A,E96F2A,C2410C&sizeDotBorderRadius=3
 
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
